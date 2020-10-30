@@ -1,0 +1,69 @@
+*{
+	margin: 0 auto; /*Убираем все изначальные отступы*/
+}
+
+/*Свойства для текста*/
+p{
+	color: red; /*цвет текста*/
+	font-size: 25px; /*размер текста*/
+	font-family: Arial; /*шрифт*/
+	font-style: italic; /*начертание (стиль) шрифта*/
+	font-weight: bold; /*жирность шрифта*/
+
+	text-align: justify; /*left/right/center/justify - выравнивание*/
+	letter-spacing: 12px; /*Расстояние между буквами*/
+	text-transform: capitalize; /*uppercase(все большие
+	/lowercase (все маленькие) /capitalize (как в предложениях)
+	- вид букв */
+
+	background-color: blue;
+
+	margin: 25px; /*Отступ от границы контейнера*/
+	padding-bottom: 25px; /*Отсутп внутри контейнера*/
+}
+
+h1{
+	letter-spacing: 12px;
+	text-transform: uppercase;
+	text-shadow: green 3px 2px 2px; /*тень текста*/
+	text-align: center; /*Заголовок по центру*/
+	margin-bottom: 25px; /*Отступ снизу*/
+}
+
+body{
+	/*background-color: red; /*Изменение цвета фона*/
+	background-image: url(../img/1.jpg); /*картинка на задний фон*/
+	background-repeat: no-repeat; /*no-repeat;repeat-x  /*Повторение картинки*/
+	background-size: cover; /*auto; Размер карнтики заднего фона*/
+}
+
+div{
+	width: 70%; /*Изменяем ширину контейнера*/
+	margin: auto; /*Контейнер по центру*/
+	background-color: white;
+
+	/*Стиль рамки*/
+	border-color: green; /*Цвет рамки*/
+	border-width: 13px; /*Ширина рамки*/
+	border-style: double; /*Двойная линия*/
+	/*dotted (точки); 
+	/*dashed (Полоски); 
+	/*solid; */
+
+	/*border: green 13px solid;*/
+}
+
+img{
+	width: 60%; /*Размер картинки (ширина)*/
+	display: block;
+	margin-bottom: 30px; /*Распологаем картинку по центру*/
+	box-shadow: yellow 3px 2px 2px; /*Тень картинки*/
+}
+
+a{
+	text-decoration: none;/*Убираем первоначальный стиль ссылки*/
+	font-size: 30px;
+	text-shadow: yellow 3px 2px 2px;
+	color: black;
+	text-align: center; /*Располагаем по центру*/
+}
